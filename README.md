@@ -7,5 +7,3 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 - HTTP 5 학습
     - 웹 기본구조
     - HTML 5 기본구조
-    - 
-    - 

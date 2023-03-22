@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>ID 선택자</title>
+    <style>
+        /* id 선택자 CSS 코드 예제 */
+        #header{
+            /* "auto"는 중간으로 정렬하는 역할을 수행한다. */
+            /* 1024의 경우, 모니터의 기본 해상도에 맞춰졌기 때문이다. */
+            width: 1024px; margin: 0 auto;
+            color: aliceblue;
+            background-color: hotpink;
+            padding: 0;
+        }
+
+        #wrap{
+            width: 1024px; margin: 0px auto;
+            overflow: hidden;
+        }
+
+        #aside{
+            width: 400px; margin: 0; float: right;
+            color: azure;
+            background-color: salmon;
+            padding: 0px;
+        }
+
+        #content{
+            width: 624px; margin: 0; float: left;
+            color: darksalmon;
+            background-color: wheat;
+        }
+        #wow{
+            color: aqua;
+            background-color: darkcyan;
+        }
+
+        /* class 선택자 CSS 코드 예제 */
+        .summer{
+            color: palevioletred;
+        }
+
+        /* ------------------------ 클래스 선택자를 여러개 사용하기 ------------------------ */
+
+        .item{
+            font-size: 50px;
+            font-style: unset;
+        }
+
+        .bound{
+            width: 800;
+
+            /* border: width 3px;
+            border-style: solid;
+            border-color: #808080; */
+            /* 위의 코드 세줄과 아래의 한줄은 같은 의미이다! */
+            border: 3px solid #808080;
+        
+            border-radius: 10px;
+
+        }
+
+    </style>
+
+     <!-- id 선택자 HTML 예제 -->
+</head>
+<body>
+    <div id="header">
+        <h1>[#header] 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id = "aside">
+            <h2>[#aside] 영역</h2>
+        </div>
+        <div id="content">
+            <h2>[#content] 영역</h2>
+        </div>
+
+    </div>
+
+    <!-- class 선택자 HTML 예제 -->
+    <div>
+        <ul>
+            <li>딸기</li>
+            <li class="summer">애플망고</li>
+            <li>바나나</li>
+            <li class="summer">수박</li>
+        </ul>
+    </div>
+
+    <!-- 한번에 두가지의 클래스 선택자를 사용하는것도 가능하다. -->
+    <h1 class="item bound">동해물과 백두산이</h1>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>CSS 박스영역</title>
+    <style>
+        body { margin: 0; padding: 0;} /* body에다 margin과 padding을 0으로 부여해도 div에서 설정이 가능하다. */
+        div{
+            width: 100px; height: 100px;
+            background-color: rgba(255, 0, 0, 0.5);
+            border: 5px solid ; /* 사이즈는 thick, thin도 가능하나 잘 안쓰는 문법임!! (보통 ''px로 사용함.)*/
+            border-color: crimson;
+
+            margin: 10px 0 0 30px; 
+            /* margin-top: 10px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 30px;  같은 내용임! */
+
+            padding: 10px 50px 20px 30px;
+        }
+        p{
+            margin: 10px;
+        }
+        .box{
+            width: 450px;
+            border-width: 5px;
+            border-color: black;
+            border-style: dashed;
+            border-radius: 50px 10px 30px 80px; /* 모서리의 휨 정도 */
+            background-color: wheat;
+            /* display: none; /*버튼과 상효작용하는 용으로 많이 사용됨.  */
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>뽀로로</p>
+    </div>
+    <div class="box">
+            <h1>Loren ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>

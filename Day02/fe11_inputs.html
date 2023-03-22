@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>입력양식 태그</title>
+</head>
+
+<body>
+    <!-- 반드시 form 태그 내 입력양식을 넣어야 함!! -->
+    <form>
+        <!-- 'type'에 따라서 input의 용도가 달라짐. -->
+        <input type="text" name="serch">
+        <input type="time">
+    </form>
+
+    <!-- action은 보낼 전송위치명, method는 전송방식.
+         대표적"Get", "Post"로 전송. -->
+
+    <!-- Get은 주소에 데이터를 입력해서 전달 -->
+    <form action="./fe11.inputs.html" method="get">
+        <h3>조회정보</h3>
+        <input type="text" name="name">
+        <input type="number" name="age">
+        <input type="submit">
+    </form>
+
+  <!-- Post는 주소 변경 없이 비밀스럽게 데이터 전달 -->
+    <form action="./fe11.inputs.html" method="post">
+        <h3>로그인</h3>
+        <input type="text" name="userid">
+        <input type="password" name="password">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

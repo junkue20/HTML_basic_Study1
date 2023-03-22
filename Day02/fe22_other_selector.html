@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>반응/상태/구조 선택자</title>
+    <style>
+        /* 마우스를 가져다 올릴때 바뀌는 색상 */
+        input[type="button"]:hover{
+            background-color: darkgray;
+        }
+        /* 클릭했을 때 바뀌는 색상 */
+        input[type="button"]:active{
+            background-color: cadetblue;
+        }
+        /* 마우스를 가져다 올릴때 바뀌는 색상 */
+        input[type="text"]:hover{
+            background-color: aquamarine;
+        }
+        /* 입력을 하고 있는 동안의 색깔 */
+        input[type="text"]:focus{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="id"><br>
+    <input type="button" value="클릭">
+</body>
+</html>

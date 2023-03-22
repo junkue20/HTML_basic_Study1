@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>구조 선택자(메뉴)</title>
+    <style>
+        ul{
+            overflow: hidden;
+        }
+        li{
+            list-style: none; /* 점 삭제 */
+            float: left; /* 왼쪽기준으로 정렬 */
+            padding: 10px; /* 10px만큼 간격유지 */
+        }
+
+        li:first-child{
+            border-radius: 10px 0 0 10px; /* 왼쪽위 오른쪽위 오른쪽아래 왼쪽아래  */
+        }  /* 왼쪽편만 둥글게 됨. */
+
+        li:last-child{
+            border-radius: 0 10px 10px 0; 
+        }  /* 오른쪽편만 둥글게 됨. */
+
+        li:nth-child(2n+1){ /* 홀수부터  아래의 스타일 적용*/
+            background-color: sandybrown;
+            color: white;
+
+        }
+
+        li:nth-child(2n+2){ /* 짝수부터  아래의 스타일 적용*/
+            background-color: antiquewhite;
+            color: slategray;
+        }
+
+        #first{
+            background-color:rgb(130, 232, 150);
+            float: left;
+            width: 100px; height: 100px;
+        }
+
+        #second{
+
+            background-color:#82E896;
+            float: left;
+            width: 100px; height: 100px;
+        }
+
+        #third{
+            background-color:rgb(130, 232, 150, 0.5); /* 맨 마지막 숫자는 투명도를 이야기함! */
+            float: left;
+            width: 100px; height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Product</li>
+        <li>Service</li>
+        <li>Portfolio</li>
+        <li>Board</li>
+        <li>Contact</li>
+    </ul>
+
+
+    <div id="first">1. RGB 코드 입력</div>
+    <div id="second">2. HEX 코드 입력</div>
+    <div id="third">3. RGBA (투명도) 입력</div>
+    <input type="color">
+</body>
+</html>

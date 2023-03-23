@@ -23,3 +23,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 - HTML 5 학습
     - CSS 3 고급
     - HTML 레이아웃
+    - 반응형 웹
+
+3일차 학습 내용
+<ing src="https://github.com/junkue20/HTML_basic_Study1/blob/main/Day03/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-23%20172859.png" width="400">

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>flexible 레이아웃</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * { margin: 0; padding: 0; }
+        
+        .box {
+            background-color: darkgray;
+            margin: 5px; padding: 5px;
+            width: 100px;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            width: 600px;
+            background-color: aliceblue;
+            border: 2px solid #303030;
+            margin-bottom: 5px;
+            display: flex; /* 플렉스 박스 레이아웃 (한줄정렬)*/
+        }
+
+        #option1 {
+            height: 200px;
+            flex-direction: row; /* 순차적으로 나열 */
+            justify-content: space-around;
+            align-items: stretch;
+        }
+
+        #option2 {  
+            flex-direction: row-reverse; /* 역순으로 나열 */
+        }
+        #option3 {
+            flex-direction: column; /* 세로로 순차 */
+        }
+        #option4 {
+            flex-direction: column-reverse; /* 세로로 역순 */
+        }
+
+    </style>
+</head>
+<body>
+    <div id = "option1" class = "container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id = "option2" class = "container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id = "option3" class = "container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id = "option4" class = "container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>

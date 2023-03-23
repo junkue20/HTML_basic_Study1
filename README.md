@@ -17,3 +17,9 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     - HTML 5 입력태그
     - CSS 3 기본
     - CSS 3 고급
+    (2일차 학습내용 추가하기)
+
+## 3일차
+- HTML 5 학습
+    - CSS 3 고급
+    - HTML 레이아웃

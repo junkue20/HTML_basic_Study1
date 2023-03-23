@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>위치 속성</title>
+    <style>
+        /* #out { */
+        body > div { 
+            width: 420px;
+            height: 150px;
+            /* 박스임. 하지만,  */
+            /* border: 2px solid black; */ 
+            position: relative;
+            overflow: hidden scroll; /* 넘치는 영역은 감추기 + 스크롤 기능*/
+            
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+
+            /* 겹쳐짐 허용 */
+            position: absolute;
+        }
+
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 10;
+
+        }
+
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px;
+            top: 90px;
+            z-index: 1;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Lorem Ipsum dolor sit</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem Ipsum dolor sit</h1>
+</body>
+
+</html>

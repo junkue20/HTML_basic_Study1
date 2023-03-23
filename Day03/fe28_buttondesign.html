@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>버튼 만들기</title>
+    <style>
+        /* 미리 스타일 객체를 생성해두어 불러 올 수도 있다. */
+        .font_big{ font-size: 25px; }
+        .font_bold{ font-weight: bold; }
+        .font_center{ text-align: center; }
+
+        .button{
+            width: 200px;
+            height: 60px;
+            background-color: peachpuff;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aliceblue;
+            border-radius: 40px; /* 모서리 굴곡 설정 */
+            box-shadow: 5px 5px 5px  #a9a9a9; /* 그림자 설정 */
+        }
+
+        .button > a{
+            display: block;
+            line-height: 60px; /* 줄내림 */
+            text-decoration-line: none; /* a태그 링크에 생성된 밑줄을 숨김. */
+        }
+    </style>
+</head>
+<body>
+    <div class="button">
+                                <!-- target은 새로운 탭 생성 여부, 저장해두었던 스타일 객체를 불러와 적용.-->
+            <a href="https://www.google.com" target="_blank" class = "font_big font_bold font_center">구글</a>  
+    </div>
+</body>
+</html>

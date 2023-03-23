@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>그리드 레이아웃 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #wrap {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* fr(배율)*/
+            grid-template-rows:1fr 2fr;
+            row-gap: 10px;
+            column-gap: 20px;
+            /* grid-template-rows: 100px 100px; */
+
+        }
+        .item {
+            padding:  10px;
+            background-color: #eeeeee;
+        }
+        .item:nth-child(odd){ /* 홀수 (2n+1) */
+            background-color: #bbbbbb;
+        }
+    </style>
+</head>
+<body>
+    <div id ="wrap">
+        <div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div>
+        <div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div><div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div><div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div><div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div><div class = "item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis! Magnam fugit eos cupiditate beatae obcaecati labore laborum nulla, aliquid maxime unde laudantium accusantium corrupti corporis quis adipisci iste nobis?
+        </div>
+    </div>
+    
+</body>
+</html>

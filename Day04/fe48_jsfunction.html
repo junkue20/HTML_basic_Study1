@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>익명함수/일반함수</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // /* 익명함수 우선순위 */
+        //     var fnc1 = function() { alert('fnc1A'); }; // 이부분 무시
+        //     var fnc1 = function() { alert('fnc1B'); };
+
+        //     fnc1();
+        //     /* -------------------------------------- */
+
+        // /* 익명함수와 일반함수 우선순위 */
+        //     var fnc2 = function() { alert('fnc2A'); };
+        //     function fnc2() { alert('fnc2B'); }; // 이부분 무시
+
+        //     fnc2();
+        /* ----------------------------------------------------------------------- */
+        /* 매개변수 */
+        function times(x) {
+            return x * x;
+        }
+
+        function plus(x, y) {
+            return x + y;
+        }
+
+        alert(times(4)) // 16 출력
+        alert(plus(2, 3)) // 5 출력
+        /* ----------------------------------------------------------------------- */
+        function procTentimes(func) {
+            for (var i = 0; i < 3; i++) {
+                func(); // 매개변수로 가져온 함수를 실행
+            }
+        }
+
+        var callback = function () {
+            alert('호출!');
+        }
+        procTentimes(callback); //"호출!" 세번출력
+
+        procTentimes(function () { console.log('이 내용은 개발툴 콘솔에 찍힙니다.') });
+
+
+        /* 객체 json*/
+        var dried_mango = {
+            name: '7D 건조망고',
+            type: '건조 당절임',
+            ingredient: '망고, 설탕, 메타중아황산나트륨, 치차황색소',
+            origin: '필리핀'
+        }
+        console.log(dried_mango['name']);
+        console.log(dried_mango['ingredient']);
+        console.log(dried_mango.origin);
+
+
+        for (var i in dried_mango) { // 'dried_mango' 의 항목들을 차례대로 개발툴 콘솔에 저장.
+            console.log(i + ': ' + dried_mango[i]);
+        }
+
+        /* ----------------------------------------------------------------------- */
+        /* === (완전일치라는 뜻의 기호) */
+        var a = 1;
+        var b = '1';
+        // 자바스크립트에서는
+        alert(a == b);
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // 페이지가 렌더링이 완료되고 나면 아래를 실행. (<h1>과 <p>를 받아오기 위해서. )
+        window.onload = function() {
+         // style 변경은 body에 마지막에 위치해야한다.
+        document.querySelector('h1').style.backgroundColor = 'red';
+        document.querySelector('h1').style.color = 'white';
+        document.querySelector('h1').style.fontSize = '50px';
+        document.querySelector('h1').style.fontStyle = 'Italic';
+        }
+    </script>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>  
+    <script>
+         var h1Style = document.querySelector('h1').style; // 코드 양이 많다면 변수로 선언하여 보기 간편하게 줄일 수 있음!
+        h1Style.backgroundColor = 'blue' // 1. 페이지 렌더링때 같이 실행되는 부분.
+    </script>
+</body>
+</html>

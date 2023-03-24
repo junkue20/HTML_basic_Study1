@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+            crossorigin = "anonymous"></script>
+    <script>   
+        /* javascript 전통 이벤트 */
+        // window.onload = function () {
+        //     alert(' Hello, javascript ');
+        // }
+        /* jQuery 방식 이벤트 */
+        $(document).ready(function () {
+            alert('Hello, jQuery!!');
+            $('h1').css('background-color', 'balck');
+            $('h1').css('color', 'white');
+            // fe50_dom.html 소스와 비교해보면 훨씬 소스간결, 쓰기도 편함.
+
+            alert( $('script').attr('integrity'))
+        });
+    </script>
+</head>
+<body>
+    <h1>hi</h1>
+    <h1>hi</h1>
+    <h1>hi</h1>
+</body>
+</html>

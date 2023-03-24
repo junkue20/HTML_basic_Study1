@@ -27,4 +27,25 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
 3일차 학습 내용
 <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day03/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-23%20172859.png" width="400">
+
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day03/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-23%20172859.png" width="600">
+
+## 4일차
+- 프론트엔드 학습
+    - Grid 레이아웃
+    - 반응형 웹
+    - JavaSrcipt 기초
+
+4일차 그리드 레이아웃 포토갤러리
+
+<img src="https://github.com/junkue20/HTML_basic_Study1/blob/main/Day04/image/gallery01.png">
+
+
+## 5일차
+- 프론트엔드 학습
+    - JavaSrcipt 마무리
+    - Bootstrap 학습
+    - 포트폴리오 웹사이트 만들기
+
+
+

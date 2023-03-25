@@ -39,7 +39,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
 4일차 그리드 레이아웃 포토갤러리
 
-<img src="https://github.com/junkue20/HTML_basic_Study1/blob/main/Day04/image/gallery01.png">
+<img src="https://github.com/junkue20/HTML_basic_Study1/blob/main/Day04/image/image4.png.PNG">
 
 
 ## 5일차

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {margin: 0; padding: 0px; }
+        .body { margin: 0 auto; }
+        .card {
+            background-color: mediumaquamarine;
+            -webkit-text-fill-color: white;
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> <!-- https://masonry.desandro.com/#cdn -->
+    <script>
+        // jQuery로 온로드 이벤트
+        // $(document).ready(function () {}); 는 외워둘 것!
+        $(document).ready(function () {
+            // 카드 객체 생성
+            var makeCard = function() {
+                for(var i = 0; i < 100; i++) { // 100개
+                    $('<div>' + i + '</div>').addClass('card').css({
+                        'width': '100',
+                        'height': (Math.floor(Math.random() * 100) + 50)
+                    }).appendTo('body');
+                }                
+                $('body').masonry({columnWidth : 100 });
+            };
+            makeCard();
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

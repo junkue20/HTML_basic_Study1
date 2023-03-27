@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>부트스트랩 시작</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- 1. Bootstrap용 csss CDN 추가 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+          crossorigin="anonymous">
+        <style> /* 부트스트랩이 있지만, 추가적으로 스타일을 적용할 수 있다. */
+            .addition{
+                background-color: aquamarine;
+                border: 1px solid whitesmoke;
+                text-align: center;
+            }
+            
+        </style>
+</head>
+<body>
+    <!-- 한 row당 길이는 12로 가정하기 때문에, col 뒤에 붙는 숫자의 합은 항상 12가 되어야 한다. -->
+    <div class="contrainer addition">
+        <div class="row">
+            <div class="col-sm-6 addition">1 of 2</div>
+            <div class="col-sm-6 addition">2 of 2</div>
+        </div>
+        <div class="row">
+            <div class="col-md addition">1 of 3</div>
+            <div class="col-md addition">2 of 3</div>
+            <div class="col-md addition">3 of 3</div>
+        </div>
+        <div class="row">
+            <div class="col-2 addition">1 of 3</div>
+            <div class="col-8 addition">2 of 3</div>
+            <div class="col-2 addition">3 of 3</div>
+        </div>
+    </div>
+
+    <!-- <form>
+       <div class="container addition"><p>.container</p></div>
+       <div class="container-sm addition"><p>.container-sm</p></div>
+       <div class="container-md addition"><p>.container-md</p></div>
+       <div class="container-fluid addition"><p>.container-fluid</p></div> 항상 100%
+
+    </form>
+     2. Bootstrap용 js는 body에 위치해야 함! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" 
+            crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

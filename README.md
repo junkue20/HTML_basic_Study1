@@ -46,7 +46,10 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 - 프론트엔드 학습
     - JavaSrcipt/jQuery 연동
     - Bootstrap 학습
+    - Bootstrap Album example 클로닝
+
+## 6일차
+- 프론트엔드 학습
+    - Bootstrap Album example 클로닝 마무리
     - 포트폴리오 웹사이트 만들기
-
-
 

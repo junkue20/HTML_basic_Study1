@@ -58,3 +58,6 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day06/image/cloningWeb.png" width="600">
     
 
+## 7일차
+- 프론트엔드 학습
+    - 

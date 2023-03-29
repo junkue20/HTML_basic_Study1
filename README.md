@@ -10,7 +10,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
 1일차 학습 내용
 <!--![멀티미디어](https://raw.githubusercontent.com/junkue20/HTML_basic_Study1/main/Day01/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-21%20165355.png)-->
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day01/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-21%20172548.png?raw=true" width="400">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day01/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-21%20172548.png?raw=true" width="700">
 
 ## 2일차
 - HTML 5 학습
@@ -28,7 +28,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 3일차 학습 내용
 <br>
 
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day03/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-23%20172859.png" width="600">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day03/image/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-03-23%20172859.png" width="700">
 
 ## 4일차
 - 프론트엔드 학습
@@ -55,7 +55,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
    
 6일차 Bootstrap Album example 클로닝
 <br>   
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day06/image/cloningWeb.png" width="600">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day06/image/cloningWeb.png" width="700">
     
 
 ## 7일차
@@ -71,14 +71,14 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
     7일차 Pinterest 스타일 웹페이지 클로닝
 <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="700">
 
     7일차 Parallax Scrolling Web 클로닝
 <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.png" width="600">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.png" width="700">
 
 
-## 8일일차
+## 8일차
 - 프론트엔드 학습
     - Single Page Template
     - SB Admin Page

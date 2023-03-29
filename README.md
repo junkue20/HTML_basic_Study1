@@ -60,4 +60,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
 ## 7일차
 - 프론트엔드 학습
-    - pinterest 스타일 웹페이지 마무리
+    - pinterest 스타일 웹페이지 마무리<br>
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
+
+   

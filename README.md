@@ -72,9 +72,8 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
      
-     <br>
    Parallax Scrolling Web 클로닝
-   <br>
+    <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.png" width="600">
 
     

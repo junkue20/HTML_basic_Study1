@@ -65,7 +65,17 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
         - jQuery 3.6.4
         - Masonry layout Library
         - Lightbox 구현
+        - parallax 웹 페이지 구현
+
+
+    Pinterest 스타일 웹페이지 클로닝
     <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
+
+    - parallax Scrolling Web
+
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
+
+    
 
    

@@ -69,7 +69,6 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     - Single Page Template
         - Bootstrap
 
-<<<<<<< HEAD
     7일차 Pinterest 스타일 웹페이지 클로닝
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
@@ -78,16 +77,6 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.png" width="600">
 
-=======
-
-   Pinterest 스타일 웹페이지 클로닝
-    <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="600">
-     
-   Parallax Scrolling Web 클로닝
-    <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.png" width="600">
->>>>>>> 4d843d91a91840fc2cad08f142d3a334f7ca5d83
 
 ## 8일일차
 - 프론트엔드 학습

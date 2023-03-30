@@ -76,8 +76,9 @@ $(document).ready(function () {
 
 
     /* 아래의 코드는 페이지 스크롤에 따른 내비게이션 메뉴 Active 설정 코드. */
-    
+
     $(document).on('scroll', function() {
+        
     var about = document.getElementById('about');
     var aboutHeight = about.getBoundingClientRect().top;
     var portfolio = document.getElementById('portfolio');

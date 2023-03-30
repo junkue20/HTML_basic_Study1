@@ -33,58 +33,6 @@
         integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src='javascript/singlepage.js'></script>
-    <script>
-        $(document).ready(function () {
-            // 화면을 스크롤 다운하면 
-            // 메뉴바 색상이 흰색으로 변경됨.
-            var navbarShrink = () => {
-                const mainNav = $('#mainNav');
-                if (!mainNav) {
-                    return;
-                }
-                if (window.scrollY === 0)
-                    mainNav.removeClass('navbar-shrink');
-                else
-                    mainNav.addClass('navbar-shrink');
-            }
-            navbarShrink();
-
-            $(document).scroll(function () {
-                navbarShrink();
-            });
-           
-            // 실패. 동작을 안함
-            // const navbarToggler =$('.navbar-toggler');
-            // const resNavItems = [].slice.call(
-            //     document.querySelectorAll('#navbarResponsive .nav-link')
-            // );
-            // resNavItems.map(function (resNavItems) {
-            //     resNavItem.addEventListener('click', () => {
-            //         if (window.getComputedStyle(navbarToggler).display !=='none') {
-            //             navbarToggler.click();
-            //         }
-            //     });
-            // });
-
-            $('#menu_about').click(function () {
-                $(this).addClass('active');
-                $('#menu_portfolio').removeClass('active');
-                $('#menu_signup').removeClass('active');
-            });
-
-            $('#menu_portfolio').click(function () {
-                $(this).addClass('active');
-                $('#menu_about').removeClass('active');
-                $('#menu_signup').removeClass('active');
-            });
-            
-            $('#menu_signup').click(function () {
-                $(this).addClass('active');
-                $('#menu_portfolio').removeClass('active');
-                $('#menu_about').removeClass('active');
-            });
-        });
-    </script>
 </head>
 
 <body id="page-top">

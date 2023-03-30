@@ -338,12 +338,12 @@ img {
 }
 
 #instagramBG:hover {
-    background-color: rgba(248, 75, 142, 1);
+    background: linear-gradient(to bottom, #8e28d3, #fd1d1d, #fcb045);
     color: white;
 }
 
 #instagramBG:active {
-    background-color: rgba(248, 75, 142, 0.5);
+    background:  linear-gradient(to bottom, #8e28d3, #fd1d1d, #fcb045);
     color: rgba(255, 255, 255, 0.5);
 }
 

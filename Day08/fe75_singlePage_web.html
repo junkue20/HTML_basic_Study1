@@ -33,64 +33,12 @@
         integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src='javascript/singlepage.js'></script>
-    <script>
-        $(document).ready(function () {
-            // 화면을 스크롤 다운하면 
-            // 메뉴바 색상이 흰색으로 변경됨.
-            var navbarShrink = () => {
-                const mainNav = $('#mainNav');
-                if (!mainNav) {
-                    return;
-                }
-                if (window.scrollY === 0)
-                    mainNav.removeClass('navbar-shrink');
-                else
-                    mainNav.addClass('navbar-shrink');
-            }
-            navbarShrink();
-
-            $(document).scroll(function () {
-                navbarShrink();
-            });
-           
-            // 실패. 동작을 안함
-            // const navbarToggler =$('.navbar-toggler');
-            // const resNavItems = [].slice.call(
-            //     document.querySelectorAll('#navbarResponsive .nav-link')
-            // );
-            // resNavItems.map(function (resNavItems) {
-            //     resNavItem.addEventListener('click', () => {
-            //         if (window.getComputedStyle(navbarToggler).display !=='none') {
-            //             navbarToggler.click();
-            //         }
-            //     });
-            // });
-
-            $('#menu_about').click(function () {
-                $(this).addClass('active');
-                $('#menu_portfolio').removeClass('active');
-                $('#menu_signup').removeClass('active');
-            });
-
-            $('#menu_portfolio').click(function () {
-                $(this).addClass('active');
-                $('#menu_about').removeClass('active');
-                $('#menu_signup').removeClass('active');
-            });
-            
-            $('#menu_signup').click(function () {
-                $(this).addClass('active');
-                $('#menu_portfolio').removeClass('active');
-                $('#menu_about').removeClass('active');
-            });
-        });
-    </script>
 </head>
 
 <body id="page-top">
 
     <!-- 네비게이션 영역 -->
-    <nav id="mainNav" class="navbar navbar-light navbar-expand fixed-top">
+    <nav id="mainNav" class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container px-4">
             <a href="#page-top" class="navbar-brand">Logo</a>
             <button type="button" class="navbar-toggler navbar-toggler-right" 
@@ -99,7 +47,7 @@
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
-            <div id="navbarResponsive" class="navbar-collapse">
+            <div id="navbarResponsive" class="navbar-collapse collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a id="menu_about" href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a id="menu_portfolio" href="#portfolio" class="nav-link">Portfolio</a></li>

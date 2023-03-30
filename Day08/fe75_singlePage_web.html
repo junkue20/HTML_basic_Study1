@@ -65,6 +65,24 @@
             //         }
             //     });
             // });
+
+            $('#menu_about').click(function () {
+                $(this).addClass('active');
+                $('#menu_portfolio').removeClass('active');
+                $('#menu_signup').removeClass('active');
+            });
+
+            $('#menu_portfolio').click(function () {
+                $(this).addClass('active');
+                $('#menu_about').removeClass('active');
+                $('#menu_signup').removeClass('active');
+            });
+            
+            $('#menu_signup').click(function () {
+                $(this).addClass('active');
+                $('#menu_portfolio').removeClass('active');
+                $('#menu_about').removeClass('active');
+            });
         });
     </script>
 </head>
@@ -83,9 +101,9 @@
             </button>
             <div id="navbarResponsive" class="navbar-collapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#signup" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a id="menu_about" href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a id="menu_portfolio" href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a id="menu_signup" href="#signup" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -97,7 +115,7 @@
                 <div class="text-center">
                     <h1 class="mx-auto my-50 text-uppercase">Grayscale</h1>
                     <h2 class="text-gray-50 mx-auto mt-2 mb-5">responsive single page Bootstrap site</h2>
-                    <a href="#" class="btn btn-primary">Get Started</a>
+                    <a href="#about" class="btn btn-primary">Get Started</a>
                 </div>
             </div>
         </div>

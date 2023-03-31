@@ -73,7 +73,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="700">
 <br>
-<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio2.gif" width="700">
+<img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/portfolio_2.gif" width="700">
 
 
 ## 8일차

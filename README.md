@@ -91,7 +91,6 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     - SB Admin Page
         - Bootstrap
         - Chart.js
-        - 
 
     SB Admin Page 클로닝 중간단계
 <br>

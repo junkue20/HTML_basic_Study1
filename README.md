@@ -93,7 +93,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
         - Chart.js
         - 
 
-    SB Admin Page 중간단계
+    SB Admin Page 클로닝 중간단계
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day09/assets/images/Portfolio4.png" width="700">
 

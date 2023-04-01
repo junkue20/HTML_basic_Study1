@@ -66,6 +66,8 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
         - Masonry layout Library
         - Lightbox 구현
     - parallax 웹 페이지 구현
+        - Bootstrap 5.3.0
+        - jQuery 3.6.4
     - Single Page Template
         - Bootstrap
 

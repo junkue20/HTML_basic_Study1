@@ -48,7 +48,8 @@ ul {
 }
 
 
-.sb-nav-fixed #layoutLeftSide, .sb-topnav {
+.sb-nav-fixed #layoutLeftSide,
+.sb-topnav {
     position: fixed;
     top: 0;
     right: 0;
@@ -66,7 +67,8 @@ ul {
     z-index: 1039;
 }
 
-.sb-nav-fixed #layoutTotal #layoutLeftSide, .sb-sidenav {
+.sb-nav-fixed #layoutTotal #layoutLeftSide,
+.sb-sidenav {
     padding-top: 56px;
 }
 
@@ -116,7 +118,7 @@ ul {
 } */
 
 .sb-sidenav-toggled #sidebarToggle {
-   /* transform: rotate(-180deg); /* 메뉴가 들어갈때 아이콘이 180도 회전 */
+    /* transform: rotate(-180deg); /* 메뉴가 들어갈때 아이콘이 180도 회전 */
 }
 
 /* #layoutLeftSide {
@@ -360,19 +362,20 @@ ul {
     min-height: 100vh;
 }
 
-#layoutError #layoutError_content{
+#layoutError #layoutError_content {
     min-width: 0;
-    flex-grow: 1; /* 컨텐트 나머지 영역을 제일 밑으로  */
+    flex-grow: 1;
+    /* 컨텐트 나머지 영역을 제일 밑으로  */
 }
 
 #layoutError #layoutError_footer {
     min-width: 0;
 }
 
- #layoutError_404{
-    
-        width: 350px;
-        height: 350px;
-        
-      
+#layoutError_404 {
+
+    width: 350px;
+    height: 350px;
+
+
 }

@@ -59,7 +59,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     
 
 ## 7일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - pinterest 스타일 웹페이지 마무리
         - Bootstrap 5.3.0
         - jQuery 3.6.4
@@ -71,7 +71,7 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
     - Single Page Template
         - Bootstrap
 
-    7일차 Pinterest, Parallax Scrolling Web 스타일 웹페이지 클로닝
+7일차 Pinterest, Parallax Scrolling Web 스타일 웹페이지 클로닝
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day07/image/pinterestPage.png" width="700">
 <br>
@@ -79,20 +79,38 @@ Java 빅데이터 개발자 과정 프론트엔드 repository
 
 
 ## 8일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - Single Page Template
-    8일차 Single Page Template 클로닝
+
+8일차 Single Page Template 클로닝
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day08/images/portfolio3.gif" width="700">
 
 
 ## 9일차
-- 프론트엔드 학습
+- 프론트엔드 실습
     - SB Admin Page
         - Bootstrap
         - Chart.js
 
-    SB Admin Page 클로닝 중간단계
+SB Admin Page 클로닝 중간단계
 <br>
 <img src = "https://github.com/junkue20/HTML_basic_Study1/blob/main/Day09/assets/images/Portfolio4.png" width="700">
+
+
+## 10일차
+- 프론트엔드 실습 
+    - SB Admin Page 마무리
+        - [simple-datatable.js](https://github.com/fiduswriter/simple-datatables)
+
+SB  Admin Page 마무리
+<br>
+
+
+## 11일차
+- 프론트엔드 실습
+
+
+## 12일차
+- 프론트엔드 실습
 

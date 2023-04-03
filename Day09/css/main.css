@@ -353,6 +353,7 @@ ul {
 }
 
 /* 에러페이지 */
+/* 500 */
 #layoutError {
     display: flex;
     flex-direction: column;
@@ -366,4 +367,12 @@ ul {
 
 #layoutError #layoutError_footer {
     min-width: 0;
+}
+
+ #layoutError_404{
+    
+        width: 350px;
+        height: 350px;
+        
+      
 }
